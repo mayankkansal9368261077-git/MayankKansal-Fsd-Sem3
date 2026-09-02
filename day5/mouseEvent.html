@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Event</title>
+    <style>
+        *{
+    padding:auto;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: white;
+}
+div{
+    background-color: #f0f0f0;
+    border: 2px dashed black;
+    height: 300px;
+    width: 500px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 2rem;
+    width: 10%;
+}
+    </style>
+</head>
+<body>
+    <h1>Mouse Event</h1>
+    <div id="testArea"><p>Test Area</p></div>
+    <script>
+        const ta=document.querySelector("#testArea");
+        const para=document.querySelector("#para");
+        para.addEventListener("mouseover",()=>{alert("This is a Parragraph.")});
+        // ta.addEventListener("click",()=>{alert("Mouse Clicked");});
+        // ta.addEventListener("dblclick",()=>{alert("Mouse Double Clicked");});
+        // ta.addEventListener("contextmenu",()=>{alert("Mouse Right Clicked");});
+        // ta.addEventListener("mouseover",()=>{alert("Mouse Over");});
+        // ta.addEventListener("mouseout",()=>{alert("Mouse Out");});
+        ta.addEventListener("mouseup",()=>{alert("Mouse Up");});
+        ta.addEventListener("mousedown",()=>{alert("Mouse Down");});
+        ta.addEventListener("",()=>{});
+        
+    </script>
+</body>
+</html>

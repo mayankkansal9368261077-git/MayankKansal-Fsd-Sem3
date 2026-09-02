@@ -1,0 +1,25 @@
+*{
+    padding:auto;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: white;
+}
+div{
+    background-color: #f0f0f0;
+    border: 2px dashed black;
+    height: 300px;
+    width: 500px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.input{
+    background-color: yellow;
+}
+p{
+    font-size: 2rem;
+    width: 10%;
+}
