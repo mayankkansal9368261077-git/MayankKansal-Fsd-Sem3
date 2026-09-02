@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    background-color: rgb(243, 226, 202);
+    width:800px;
+    padding:auto;
+    border-radius: 5px;
+}
+
+#header{
+    background-color:antiquewhite;
+    margin-bottom: 3rem;
+}
+
+#pfPhoto{
+    border: solid 2px black;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#main{
+    width: 1000px;
+    background-color: antiquewhite;
+    margin:auto;
+    border-radius: 10px;
+    padding: auto;
+    display: flex;
+    direction: column;
+    justify-content: center;
+}
