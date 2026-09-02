@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: centre;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+#stuForm{
+    width: 20%;
+    background-color: rgba(241, 239, 220, 0.403);
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    line-height: 3rem;
+}
