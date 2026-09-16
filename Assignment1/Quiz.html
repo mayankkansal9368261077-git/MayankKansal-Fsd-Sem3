@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 1 FSD DS</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <h1>Quiz 1 FSD DS</h1>
+    <form id="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        <label for="admNo">Admission Number:</label>
+        <input type="text" id="admNo" name="admNo" placeholder="Enter your admission number" required><br><br>
+        <label for="RollNo">Roll Number:</label>
+        <input type="text" id="RollNo" name="RollNo" placeholder="Enter your roll number" required><br><br>
+        <label for="Section">Section:</label>
+        <input type="radio" id="A" name="Section" value="A" required>
+        <label for="A">A</label>
+        <input type="radio" id="B" name="Section" value="B" required>
+        <label for="B">B</label>
+        <input type="radio" id="C" name="Section" value="C" required>
+        <label for="C">C</label><br><br>
+        <button id="submit" onclick="start()" type="submit">Submit</button>
+    </form>
+    <script src="Quiz.js"></script>
+</body>
+</html>
