@@ -1,6 +1,7 @@
 const btn=document.getElementById("submit");
 const next=document.getElementById("next");
-let ques=document.getElementById("Question");
+// next.addEventListener("click",Next());
+
 
 const quizQues = [
   {
@@ -50,20 +51,28 @@ const quizQues = [
   }
 ];
 
-const i=0;
+let i=0;
 
 function que(){
-    ques.textContent=`${quizQues[i].question}`;
-}
-
-function start(){
-    alert("clicked");
-    window.open("quizQue.html","");
-    que();
+  document.getElementById("Question").textContent=`${quizQues[i].question}`;
+  document.getElementById("option1-label").textContent=`${quizQues[i].options[0]}`;
+  document.getElementById("option2-label").textContent=`${quizQues[i].options[1]}`;
+  document.getElementById("option3-label").textContent=`${quizQues[i].options[2]}`;
+  document.getElementById("option4-label").textContent=`${quizQues[i].options[3]}`;
 }
 
 function Next(){
-    alert("Next Was Clicked");
-    i++;
+  i++;
+  if(i==5){
+    i=0;
+    alert("Quiz complet");
     que();
+  }
+  que();
 }
+
+function start(){
+  window.open("quizQue.html","");
+}
+
+window.addEventListener("load",que());
