@@ -19,7 +19,8 @@ h1{
 
 #quiz-container{
     background-color: bisque;
-    width:600px;
+    width: min(600px, 90%);
+    box-sizing: border-box;
     margin: auto;
     margin-top: 3rem;
     padding: 1rem;
@@ -27,7 +28,26 @@ h1{
     line-height: 40px;
 }
 
+#question-number{
+    color: #555;
+    font-weight: bold;
+}
+
+#question-container label{
+    cursor: pointer;
+}
+
+#feedback{
+    min-height: 1.5rem;
+    color: #a33;
+    font-weight: bold;
+}
+
 #next{
     background-color: black;
     color: white;
+    padding: 0.6rem 1rem;
+    border: 0;
+    border-radius: 0.3rem;
+    cursor: pointer;
 }
