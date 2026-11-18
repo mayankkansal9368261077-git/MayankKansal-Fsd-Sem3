@@ -1,0 +1,15 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+  color: white;
+  background-color: #1a1a1a;
+}
+
+nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #0066cc;
+}
